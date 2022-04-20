@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background: white;
+    flex-direction: column;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+.header--totalVentas{
+    background: linear-gradient(90deg, rgba(17,30,108,1) 30%, rgba(128,66,123,1) 69%, rgba(120,47,71,1) 85%);
+    color: white;
+}
+
+.valor--totalVentas{
+    color: rgba(120,47,71,1);
+}
+
+.mes--totalVentas{
+    color: rgba(17,30,108,1);
+}
