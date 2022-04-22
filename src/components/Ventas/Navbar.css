@@ -1,0 +1,27 @@
+.nav--container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    background: white;
+    margin-right: 30px;
+    height: 30px;
+  }
+  
+  /* Basic styles for nav links */
+.nav--a--false {
+    text-decoration: none;
+    color: #111e6c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+
+  .nav--a--active {
+    background: #969696;
+    text-decoration: none;
+    color: #111e6c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+  
+  

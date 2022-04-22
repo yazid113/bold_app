@@ -10,8 +10,8 @@ const Header = () => {
       <nav>
 
           <React.Fragment>
-            <a className="signup" href='#'>Mi negocio</a>
-            <a className="signin" href='#'>Ayuda </a>
+            <a className="head--link" href='#'>Mi negocio</a>
+            <a className="head--link" href='#'>Ayuda </a>
           </React.Fragment>
         
       </nav>

@@ -5,19 +5,40 @@
     display: flex;
     background: white;
     flex-direction: column;
-    width: 100px;
-    height: auto;
-    border-radius: 5px;
+    justify-content: flex-start;
+    width: 290px;
+    height: 138px;
+    border-radius: 0 0 5px 5px;
+    margin-left: 30px;
 }
 .header--totalVentas{
-    background: linear-gradient(90deg, rgba(17,30,108,1) 30%, rgba(128,66,123,1) 69%, rgba(120,47,71,1) 85%);
-    color: white;
+    background: linear-gradient(90deg, rgba(120,47,71,1) 50%, rgba(142,93,109,1) 86%);
+    border-radius: 5px 5px 0 0;
+    height: 39px;
 }
-
+.header--totalVentas--text{
+    color: white;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 580;
+}
 .valor--totalVentas{
     color: rgba(120,47,71,1);
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 49px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .mes--totalVentas{
     color: rgba(17,30,108,1);
+    font-size: small;
+    margin-left: 85px;
+    margin-top: 3px;
+    font-family: 'Montserrat', sans-serif;
 }
